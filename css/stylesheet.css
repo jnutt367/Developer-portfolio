@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+	teaxt-align: center;
+}
+/*-----------Begin header styles --------------*/
+.nav-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	color: white;
+}
+ul{
+	background-color: transparent ;
+}
+li {
+	list-style: none;
+}
+a {
+	color: pink;
+}
+a:hover {
+	color: aqua;
+	cursor: pointer;
+}
+h1{
+		color:white;
+}
+.circle {
+	
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	color: white;
+	background-color: red;
+}
+.sm-circle {
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	border: 1px solid red;
+}
+
+/*-----------------------End of header styles ------*/
+.statement{
+	margin-top: 50px;
+	display: grid;
+	grid-gap: 40px;
+}
+h2, button {
+	color: pink;
+}
+button {
+	padding: 15px;
+	border-radius: 10px;
+	border: 2px solid pink;
+}
+button:hover {
+	cursor: pointer;
+	font-weight: 700;
+	border-radius: 10px;
+	color: aqua;
+	border: 3px solid aqua;
+}
+/*------------------end of personal statement ------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+	height: 200px;
+
+	background-color: transparent;
+}
+section {
+	height: 200px;
+	background-color: grey;
+}
+aside{
+	height: 200px;
+	background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
