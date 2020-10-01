@@ -1,9 +1,9 @@
 * {
 	box-sizing: border-box;
 	margin: 0 auto;
-	background-color: black;
+	background-color: transparent;
 	color: white;
-	teaxt-align: center;
+	
 }
 /*-----------Begin header styles --------------*/
 .nav-container {
@@ -11,23 +11,41 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
+	background-color: black;
 	color: white;
 }
 ul{
 	background-color: transparent ;
+	padding-top: 2em;
 }
 li {
 	list-style: none;
 }
 a {
 	color: pink;
+	text-decoration: none;
+	 transition-property: color;
+	transition-duration: 2s;
 }
 a:hover {
+	transform: 2s;
 	color: aqua;
+	padding: 3px;
+	border-radius: 5px;
+	border: 1px solid aqua;
 	cursor: pointer;
 }
 h1{
-		color:white;
+	color:white;
+}
+section h2 {
+	color:white;
+	margin-left: 2em;
+	text-decoration: underline;
+}
+section p {
+	margin-left: 4em;
+	padding: 15px;
 }
 .circle {
 	
@@ -36,6 +54,9 @@ h1{
 	border-radius: 50%;
 	color: white;
 	background-color: red;
+}
+.circle:hover {
+	trans
 }
 .sm-circle {
 	height: 25px;
@@ -46,6 +67,7 @@ h1{
 
 /*-----------------------End of header styles ------*/
 .statement{
+	background-color: black;
 	margin-top: 50px;
 	display: grid;
 	grid-gap: 40px;
@@ -54,9 +76,12 @@ h2, button {
 	color: pink;
 }
 button {
-	padding: 15px;
+	padding: 5px;
 	border-radius: 10px;
 	border: 2px solid pink;
+	margin-bottom: 200px;
+	transition-property: color;
+	transition-duration: 2s;
 }
 button:hover {
 	cursor: pointer;
@@ -67,15 +92,10 @@ button:hover {
 }
 /*------------------end of personal statement ------*/
 
-
-
-
-
-
-
-
-
-
+#about {
+	text-align: left;
+	background-color: black;
+}
 
 
 
@@ -87,12 +107,25 @@ main {
 }
 section {
 	height: 200px;
-	background-color: grey;
+	background-color: transparent;
 }
 aside{
 	height: 200px;
 	background-color: blue;
 }
+footer {
+	
+}
+footer ul li img {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 25px;
+	width: 25px;
+}
+
 
 
 
