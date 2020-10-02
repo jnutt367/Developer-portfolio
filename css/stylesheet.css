@@ -56,7 +56,7 @@ section p {
 	color: white;
 	/*------ figure out how to change this image on hover and on scroll --------------*/
 	/*------This is a good idea do not give up on it ---------*/
-	
+	border: 2px solid aqua;
 	background: ;
 	transition: transform;
 	transition-duration: 3s;
@@ -118,6 +118,9 @@ button:hover {
 	background-color: black;
 	height: 400px;
 }
+#projects {
+	margin-top: 2.5em;
+}
 #projects h2 {
 	text-align: center;
 	margin-bottom: 50px;
@@ -147,7 +150,7 @@ section {
 }
 aside{
 	
-	background-color: blue;
+	background-color: transparent;
 }
 footer {
 	background-color:white;
@@ -186,6 +189,28 @@ footer ul li img {
 	background-color: black;
 	color: white;
 }
+
+/*-------icons flex out to row from column ----------*/
+footer ul {
+	border: 1px solid blue;
+	display: flex;
+	flex-direction: row-reverse;
+}
+footer ul li img {
+	border: 1px solid blue;
+	display: flex;
+}
+}
+
+
+@media screen and (min-device-width: 500px) {
+	.project-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+		align-items: center;
+		grid-gap: 25px;
+}
 }
 
 
@@ -193,7 +218,12 @@ footer ul li img {
 
 
 
-
-
-
-
+@media screen and (min-device-width: 768px) {
+	.project-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		justify-content: center;
+		align-items: center;
+		grid-gap: 25px;
+}
+}
