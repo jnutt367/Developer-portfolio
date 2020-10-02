@@ -8,7 +8,7 @@
 /*-----------Begin header styles --------------*/
 .nav-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
 	background-color: black;
@@ -20,6 +20,7 @@ ul{
 }
 li {
 	list-style: none;
+	margin-bottom: 1em;
 }
 a {
 	color: pink;
@@ -53,16 +54,33 @@ section p {
 	width: 200px;
 	border-radius: 50%;
 	color: white;
-	background-color: red;
+	/*------ figure out how to change this image on hover and on scroll --------------*/
+	/*------This is a good idea do not give up on it ---------*/
+	
+	background: ;
+	transition: transform;
+	transition-duration: 3s;
 }
+ 
+
 .circle:hover {
-	trans
+	transform: rotate(45deg);
+	border: 2px solid pink;
+	border-radius: revert;
+	background-image: url('images/jason1.jpg');
 }
-.sm-circle {
+.sm-logo {
 	height: 25px;
 	width: 25px;
 	border-radius: 50%;
 	border: 1px solid red;
+	transition: transform;
+	transition-duration: 3s;
+}
+.sm-logo:hover {
+	transform: scale(2);
+
+	
 }
 
 /*-----------------------End of header styles ------*/
@@ -71,6 +89,9 @@ section p {
 	margin-top: 50px;
 	display: grid;
 	grid-gap: 40px;
+}
+.statement h2 {
+	margin-left: 1.5em;
 }
 h2, button {
 	color: pink;
@@ -103,7 +124,7 @@ button:hover {
 }
 .project-wrapper {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 		justify-content: center;
 		align-items: center;
 		grid-gap: 25px;
@@ -112,24 +133,24 @@ button:hover {
 	height: 200px;
 	width: 200px;
 	border: 2px dotted silver;
-	
+	margin: 0 auto;
 }
 
 main {
-	height: 200px;
+	
 
 	background-color: transparent;
 }
 section {
-	height: 200px;
+	
 	background-color: transparent;
 }
 aside{
-	height: 200px;
+	
 	background-color: blue;
 }
 footer {
-	background-color: black;
+	background-color:white;
 }
 footer ul li img {
 	border: 1px solid red;
@@ -154,9 +175,18 @@ footer ul li img {
 
 
 
+/*---------------Styles only after small screen sizes --------------*/
 
-
-
+@media screen and (min-device-width: 320px) {
+	.nav-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	background-color: black;
+	color: white;
+}
+}
 
 
 
