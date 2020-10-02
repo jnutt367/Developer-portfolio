@@ -139,6 +139,11 @@ button:hover {
 	margin: 0 auto;
 }
 
+/*---------------Styles for project-overlay -------------------*/
+
+
+
+/*---------------End Overlay styles ----------------------------*/
 main {
 	
 
@@ -189,7 +194,12 @@ footer ul li img {
 	background-color: black;
 	color: white;
 }
+	.statement h2 {
+		color: aqua;
+		margin-left: 7em;
+	}
 
+}
 /*-------icons flex out to row from column ----------*/
 footer ul {
 	border: 1px solid blue;
