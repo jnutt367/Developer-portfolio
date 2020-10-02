@@ -95,10 +95,25 @@ button:hover {
 #about {
 	text-align: left;
 	background-color: black;
+	height: 400px;
 }
-
-
-
+#projects h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.project-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+		align-items: center;
+		grid-gap: 25px;
+}
+.project-wrapper img {
+	height: 200px;
+	width: 200px;
+	border: 2px dotted silver;
+	
+}
 
 main {
 	height: 200px;
@@ -114,7 +129,7 @@ aside{
 	background-color: blue;
 }
 footer {
-	
+	background-color: black;
 }
 footer ul li img {
 	border: 1px solid red;
