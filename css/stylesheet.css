@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 	margin: 0 auto;
-	background-color: transparent;
+	background-color: black;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	
@@ -127,6 +127,7 @@ button:hover {
 }
 #projects {
 	margin-top: 2.5em;
+	margin-bottom: 4em;
 }
 #projects h2 {
 	text-align: center;
@@ -168,13 +169,14 @@ aside{
 /*----------------------Form styles only -------------------*/
  form {
 	display: grid;
-	padding: 20px;
-	background: skyblue;
+	margin: 0 20px;
+	padding: 10px;
+	background: ;
 	border-radius: 2%;
  }
  input {
 	background: white;
-	height: 50px;
+	height: 25px;
 	padding: 15px;
 	
 	border-radius: 2%;
