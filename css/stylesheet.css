@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 	margin: 0 auto;
-	background-color: black;
+	background-color: transparent;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	
@@ -62,7 +62,7 @@ section p {
 	border: 2px solid aqua;
 	background: ;
 	transition: transform;
-	transition-duration: 3s;
+	transition-duration: .5s;
 }
  
 
@@ -125,6 +125,9 @@ button:hover {
 	height: 600px;
 	font-family: 'Raleway', sans-serif;
 }
+#about h3 {
+	text-align: center;
+}
 #projects {
 	margin-top: 2.5em;
 	margin-bottom: 4em;
@@ -183,9 +186,12 @@ aside{
  }
  
  #form {
-	color: white;
+	color: black;
  }
-
+label {
+	color: black;
+	padding: 1em;
+}
 
 
 
@@ -194,7 +200,6 @@ footer {
 	background-color: white;
 }
 footer ul li img {
-	border: 1px solid red;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -218,7 +223,7 @@ footer ul li img {
 
 /*---------------Styles only after small screen sizes --------------*/
 
-@media screen and (min-device-width: 320px) {
+@media screen and (min-device-width: 450px) {
 	.nav-container {
 	display: flex;
 	flex-direction: row;
@@ -227,21 +232,19 @@ footer ul li img {
 	background-color: black;
 	color: white;
 }
-	
+#about h3 {
+	text-align: left;
+}	
 
 }
 /*-------icons flex out to row from column ----------*/
 footer ul {
-	border: 1px solid blue;
 	display: flex;
 	flex-direction: row-reverse;
 }
 footer ul li img {
-	border: 1px solid blue;
 	display: flex;
 }
-}
-
 
 @media screen and (min-device-width: 500px) {
 	.project-wrapper {
@@ -250,7 +253,7 @@ footer ul li img {
 		justify-content: center;
 		align-items: center;
 		grid-gap: 25px;
-}
+	}
 }
 
 
