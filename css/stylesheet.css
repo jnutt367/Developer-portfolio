@@ -38,6 +38,7 @@ a:hover {
 	cursor: pointer;
 }
 h1{
+	text-align: center;
 	color:white;
 	font-family: 'Raleway', sans-serif;
 }
@@ -89,6 +90,7 @@ section p {
 /*-----------------------End of header styles ------*/
 .statement{
 	background-color: black;
+	padding: 1.5em;
 	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
@@ -97,6 +99,7 @@ section p {
 }
 
 button {
+	
 	color: pink;
 	padding: 5px;
 	border-radius: 10px;
