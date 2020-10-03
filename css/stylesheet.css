@@ -1,8 +1,9 @@
 * {
 	box-sizing: border-box;
 	margin: 0 auto;
-	background-color: transparent;
+	background-color: black;
 	color: white;
+	font-family: 'Open Sans', sans-serif;
 	
 }
 /*-----------Begin header styles --------------*/
@@ -38,6 +39,7 @@ a:hover {
 }
 h1{
 	color:white;
+	font-family: 'Raleway', sans-serif;
 }
 section h2 {
 	color:white;
@@ -49,7 +51,7 @@ section p {
 	padding: 15px;
 }
 .circle {
-	
+	background-image: url('../images/jason6-sm.jpg');
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
@@ -67,7 +69,7 @@ section p {
 	transform: rotate(45deg);
 	border: 2px solid pink;
 	border-radius: revert;
-	background-image: url('images/jason1.jpg');
+	background-image: url('../images/jason1-sm.jpg');
 }
 .sm-logo {
 	height: 25px;
@@ -99,6 +101,7 @@ h2, button {
 button {
 	padding: 5px;
 	border-radius: 10px;
+	box-shadow: 5px 3px 2px pink;
 	border: 2px solid pink;
 	margin-bottom: 200px;
 	transition-property: color;
@@ -117,6 +120,7 @@ button:hover {
 	text-align: left;
 	background-color: black;
 	height: 400px;
+	font-family: 'Raleway', sans-serif;
 }
 #projects {
 	margin-top: 2.5em;
@@ -158,7 +162,7 @@ aside{
 	background-color: transparent;
 }
 footer {
-	background-color:white;
+	background-color: transparent;
 }
 footer ul li img {
 	border: 1px solid red;
