@@ -135,6 +135,16 @@ button:hover {
 #projects h2 {
 	text-align: center;
 	margin-bottom: 50px;
+	color: aqua;
+	transition: transform;
+	transition-duration: 1s;
+}
+#projects h2:hover {
+	text-decoration: underline;
+	color: pink;
+	font-family: 'Raleway';
+	font-size: 2em;
+	transform: rotate(360deg);
 }
 .project-wrapper {
 		display: grid;
@@ -146,9 +156,10 @@ button:hover {
 .project-wrapper img {
 	height: 200px;
 	width: 200px;
-	border: 2px dotted silver;
+	border: 10px ridge silver;
 	margin: 0 auto;
 }
+
 
 /*---------------Styles for project-overlay -------------------*/
 
