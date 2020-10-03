@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 	margin: 0 auto;
-	background-color: black;
+	background-color: transparent;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	
@@ -41,7 +41,7 @@ h1{
 	color:white;
 	font-family: 'Raleway', sans-serif;
 }
-section h2 {
+section h3 {
 	color:white;
 	margin-left: 2em;
 	text-decoration: underline;
@@ -66,10 +66,11 @@ section p {
  
 
 .circle:hover {
-	transform: rotate(45deg);
+	transform: rotate(15);
 	border: 2px solid pink;
-	border-radius: revert;
+	border-radius: 50%;
 	background-image: url('../images/jason1-sm.jpg');
+	transform: scale(1.1);
 }
 .sm-logo {
 	height: 25px;
@@ -89,16 +90,14 @@ section p {
 .statement{
 	background-color: black;
 	margin-top: 50px;
-	display: grid;
+	display: flex;
+	flex-direction: column;
 	grid-gap: 40px;
+	margin-bottom: 200px;
 }
-.statement h2 {
-	margin-left: 1.5em;
-}
-h2, button {
-	color: pink;
-}
+
 button {
+	color: pink;
 	padding: 5px;
 	border-radius: 10px;
 	box-shadow: 5px 3px 2px pink;
@@ -113,13 +112,14 @@ button:hover {
 	border-radius: 10px;
 	color: aqua;
 	border: 3px solid aqua;
+	box-shadow: 5px 3px 2px aqua;
 }
 /*------------------end of personal statement ------*/
 
 #about {
 	text-align: left;
 	background-color: black;
-	height: 400px;
+	height: 600px;
 	font-family: 'Raleway', sans-serif;
 }
 #projects {
@@ -162,7 +162,8 @@ aside{
 	background-color: transparent;
 }
 footer {
-	background-color: transparent;
+	height: 300px;
+	background-color: white;
 }
 footer ul li img {
 	border: 1px solid red;
@@ -198,10 +199,7 @@ footer ul li img {
 	background-color: black;
 	color: white;
 }
-	.statement h2 {
-		color: aqua;
-		margin-left: 7em;
-	}
+	
 
 }
 /*-------icons flex out to row from column ----------*/
