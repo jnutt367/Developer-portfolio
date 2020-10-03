@@ -161,6 +161,29 @@ aside{
 	
 	background-color: transparent;
 }
+
+/*----------------------Form styles only -------------------*/
+ form {
+	display: grid;
+	padding: 20px;
+	background: skyblue;
+	border-radius: 2%;
+ }
+ input {
+	background: white;
+	height: 50px;
+	padding: 15px;
+	
+	border-radius: 2%;
+ }
+ 
+ #form {
+	color: white;
+ }
+
+
+
+
 footer {
 	height: 300px;
 	background-color: white;
