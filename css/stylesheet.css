@@ -204,7 +204,7 @@ aside{
  }
  
  #form {
-	color: black;
+	color: white;
  }
 label {
 	color: black;
@@ -215,7 +215,7 @@ label {
 
 footer {
 	height: 300px;
-	background-color: white;
+	background-color: black;
 }
 footer ul li img {
 	display: flex;
@@ -269,7 +269,9 @@ footer ul {
 footer ul li img {
 	display: flex;
 }
-
+footer p {
+	text-align: center;
+}
 @media screen and (min-device-width: 500px) {
 	.project-wrapper {
 		display: grid;
