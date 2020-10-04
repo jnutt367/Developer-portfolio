@@ -202,7 +202,9 @@ aside{
 	
 	border-radius: 2%;
  }
- 
+ #form {
+	 margin: 0 6.5em 0 6.5em;
+ }
  #form label {
 	color: white;
  }
@@ -230,6 +232,12 @@ footer ul li img {
 
 footer ul li img:hover {
 	transform: scale(1.3);
+}
+.github img {
+	border-radius: 50%;
+}
+hr {
+	margin-bottom: 3em;
 }
 
 
