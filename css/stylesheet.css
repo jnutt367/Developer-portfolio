@@ -346,6 +346,9 @@ footer p {
   background-position: 0 0;
   background-color: #222;
 }
+p .shimmer {
+	margin-bottom: 1em;
+}
 @-moz-keyframes shimmer {
   0% {
     background-position: top left;
