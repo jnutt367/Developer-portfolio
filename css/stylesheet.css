@@ -10,7 +10,7 @@
 .sm-logo {
 	height: 25px;
 	width: 25px;
-	border-radius: 50%;
+	border-radius: 75%;
 	border: 1px solid red;
 	transition: transform;
 	transition-duration: 3s;
@@ -172,13 +172,7 @@ button:hover {
 }
 /*------------------Overlays styling -----------------*/
 
-figcaption:hover {
-	border-style: none;
-}
 
-figure:hover {
-	border-style: none;
-}
 
 
 /*---------------End Overlay styles ----------------------------*/
