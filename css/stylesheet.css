@@ -178,34 +178,11 @@ button:hover {
 	position: relative;
 }
 .overlay a {
-	border: none;
-}
-#text {
-	font-weight: 900;
-	position: absolute;
-	bottom: 0px;
-	z-index: 2;
-	opacity: 13;
-	background: transparent;
-	padding: 10px;
-	color: aqua;
-	border: 1px solid silver;
-    
-    height: 200px;
-    cursor: pointer;
+	height: 400px;
+	width: 200px;
+	border: 1px solid red;
 }
 
-.anchor{
-	
-	padding: 5px;
-	padding: 10px;
-	position: absolute;
-	right: 75px;
-	top: 150px;
-	color: black;
-	font-weight: 900;
-	border: 2px solid red;
-}
 
 
 
