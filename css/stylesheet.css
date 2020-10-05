@@ -172,19 +172,13 @@ button:hover {
 }
 /*------------------Overlays styling -----------------*/
 
-.overlay {
-	height: 200px;
-	width: 200px;
-	position: relative;
-}
-.overlay a {
-	height: 400px;
-	width: 200px;
-	border: 1px solid red;
+figcaption:hover {
+	border-style: none;
 }
 
-
-
+figure:hover {
+	border-style: none;
+}
 
 
 /*---------------End Overlay styles ----------------------------*/
