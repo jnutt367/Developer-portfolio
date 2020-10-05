@@ -6,6 +6,21 @@
 	font-family: 'Open Sans', sans-serif;
 	
 }
+/*--------------Logo styling ---------------*/
+.sm-logo {
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	border: 1px solid red;
+	transition: transform;
+	transition-duration: 3s;
+}
+.sm-logo:hover {
+	transform: scale(2);
+	cursor: pointer;
+
+	
+}
 /*-----------Begin header styles --------------*/
 .nav-container {
 	display: flex;
@@ -76,20 +91,7 @@ section p {
 	transform: scale(1.1);
 	cursor: pointer;
 }
-.sm-logo {
-	height: 25px;
-	width: 25px;
-	border-radius: 50%;
-	border: 1px solid red;
-	transition: transform;
-	transition-duration: 3s;
-}
-.sm-logo:hover {
-	transform: scale(2);
-	cursor: pointer;
 
-	
-}
 
 /*-----------------------End of header styles ------*/
 .statement{
@@ -165,6 +167,32 @@ button:hover {
 	width: 200px;
 	border: 10px ridge silver;
 	margin: 0 auto;
+	z-index: 1;
+	
+}
+/*------------------Overlays styling -----------------*/
+
+.overlay {
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+.overlay a {
+	border: none;
+}
+#text {
+	font-weight: 900;
+	position: absolute;
+	bottom: 0px;
+	z-index: 2;
+	opacity: 13;
+	background: transparent;
+	padding: 10px;
+	color: aqua;
+	border: 1px solid silver;
+    
+    height: 200px;
+    cursor: pointer;
 }
 
 
