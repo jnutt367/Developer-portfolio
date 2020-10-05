@@ -160,7 +160,7 @@ button:hover {
 		grid-template-columns: 1fr;
 		justify-content: center;
 		align-items: center;
-		grid-gap: 25px;
+		grid-gap: 50px;
 }
 .project-wrapper img {
 	height: 200px;
@@ -195,8 +195,18 @@ button:hover {
     cursor: pointer;
 }
 
+.anchor{
+	
+	padding: 5px;
+	padding: 10px;
+	position: absolute;
+	right: 75px;
+	top: 150px;
+	color: black;
+	font-weight: 900;
+	border: 2px solid red;
+}
 
-/*---------------Styles for project-overlay -------------------*/
 
 
 
