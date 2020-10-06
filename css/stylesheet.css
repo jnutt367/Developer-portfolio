@@ -10,8 +10,7 @@
 .sm-logo {
 	height: 25px;
 	width: 25px;
-	border-radius: 75%;
-	border: 1px solid red;
+	border-radius: 50%;
 	transition: transform;
 	transition-duration: 3s;
 }
