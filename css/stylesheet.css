@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 	margin: 0 auto;
-	background-color: black;
+	background-color:transparent;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	
@@ -173,6 +173,9 @@ button:hover {
 	margin: 0 auto;
 	z-index: 1;
 	
+}
+figcaption {
+	color: pink;
 }
 /*------------------Overlays styling -----------------*/
 
