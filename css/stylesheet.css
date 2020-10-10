@@ -175,7 +175,9 @@ button:hover {
 	
 }
 figcaption {
-	color: pink;
+	color: black;
+	font-weight: 800;
+	font-size: 1em;
 }
 /*------------------Overlays styling -----------------*/
 
