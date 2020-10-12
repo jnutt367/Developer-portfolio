@@ -137,6 +137,12 @@ button:hover {
 }
 #about h3 {
 	text-align: center;
+	
+}
+#about img {
+	display: grid;
+	justify-content: center;
+	align-items: center;
 }
 #projects {
 	margin-top: 2.5em;
