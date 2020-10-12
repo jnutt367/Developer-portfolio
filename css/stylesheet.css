@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 	margin: 0 auto;
-	background-color:transparent;
+	background-color: black;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	
@@ -181,8 +181,8 @@ button:hover {
 	
 }
 figcaption {
-	color: black;
-	font-weight: 800;
+	color: white;
+	font-weight: 900;
 	font-size: 1em;
 }
 /*------------------Overlays styling -----------------*/
