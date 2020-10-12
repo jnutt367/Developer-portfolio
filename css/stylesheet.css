@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	margin: 0 auto;
 	background-color: black;
-	color: white;
+	color: silver;
 	font-family: 'Open Sans', sans-serif;
 	
 }
@@ -143,6 +143,8 @@ button:hover {
 	display: grid;
 	justify-content: center;
 	align-items: center;
+	height: 300px;
+	width: 300px; 
 }
 #projects {
 	margin-top: 2.5em;
@@ -306,6 +308,7 @@ footer p {
 		align-items: center;
 		grid-gap: 25px;
 	}
+	
 }
 
 
@@ -321,6 +324,17 @@ footer p {
 		align-items: center;
 		grid-gap: 25px;
 }
+	#about img {
+		display: grid;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	width: 600px; 
+	background-color: black;
+	float: right;
+	margin-right: 5rem;
+	margin-top: 5rem;
+	}
 }
 
 
